@@ -1,0 +1,25 @@
+$ ping -c 4 example.com
+PING example.com (104.20.23.154): 56 data bytes
+64 bytes from 104.20.23.154: icmp_seq=0 ttl=59 time=29.504 ms
+64 bytes from 104.20.23.154: icmp_seq=1 ttl=59 time=29.051 ms
+64 bytes from 104.20.23.154: icmp_seq=2 ttl=59 time=43.880 ms
+64 bytes from 104.20.23.154: icmp_seq=3 ttl=59 time=28.201 ms
+
+--- example.com ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 28.201/32.659/43.880/6.495 ms
+
+$ nslookup example.com
+Server:		[redacted - my local router]
+Address:	[redacted - my local router]
+
+Non-authoritative answer:
+Name:	example.com
+Address: 104.20.23.154
+Name:	example.com
+Address: 172.66.147.243
+
+
+$ dig +short example.com
+104.20.23.154
+172.66.147.243

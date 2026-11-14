@@ -21,7 +21,7 @@ M  mission-06-git-github/README.md
 ?? evidence/mission-06-task6.1-output.txt
 
 $ git commit -m "Complete Git and GitHub collaboration mission"
-[main 0f4f29b] Complete Git and GitHub collaboration mission
+[main <this commit>] Complete Git and GitHub collaboration mission
 
 $ git log --oneline -4
 <this commit> Complete Git and GitHub collaboration mission
