@@ -1,0 +1,30 @@
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   mission-06-git-github/README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	evidence/mission-06-branch-pr-output.txt
+	evidence/mission-06-task6.1-output.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+$ git add mission-06-git-github/README.md
+$ git status --short
+M  mission-06-git-github/README.md
+?? evidence/mission-06-branch-pr-output.txt
+?? evidence/mission-06-task6.1-output.txt
+
+$ git commit -m "Complete Git and GitHub collaboration mission"
+[main 0f4f29b] Complete Git and GitHub collaboration mission
+
+$ git log --oneline -4
+<this commit> Complete Git and GitHub collaboration mission
+1e4e892 Merge pull request #1 from update-about
+82dfcf9 Add My Learning section to README
+e6b0507 Build number converter and practise data representation

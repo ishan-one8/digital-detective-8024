@@ -1,0 +1,46 @@
+$ git switch -c update-about
+Switched to a new branch 'update-about'
+
+$ git status
+On branch update-about
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+$ git add README.md
+$ git commit -m "Add My Learning section to README"
+[update-about 82dfcf9] Add My Learning section to README
+ 1 file changed, 8 insertions(+)
+
+$ git push -u origin update-about
+To https://github.com/ishan-one8/digital-detective-8024.git
+ * [new branch]      update-about -> update-about
+branch 'update-about' set up to track 'origin/update-about'.
+
+--- After merging PR #1 on GitHub ---
+$ git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+$ git pull
+   e6b0507..1e4e892  main       -> origin/main
+Updating e6b0507..1e4e892
+Fast-forward
+ README.md | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+$ git branch
+* main
+  update-about
+
+$ git log --oneline --graph -5
+*   1e4e892 Merge pull request #1 from update-about
+|\  
+| * 82dfcf9 Add My Learning section to README
+|/  
+* e6b0507 Build number converter and practise data representation
+* 4dd8895 Compare compilers and interpreters
+* 126a8f8 Document operating system and file management
