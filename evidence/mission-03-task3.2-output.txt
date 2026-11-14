@@ -1,0 +1,12 @@
+$ ps -ax -o pid,comm | head -1   (header)
+  PID COMM
+
+$ ps -ax -o pid,comm | grep -E "launchd$|WindowServer|Finder$|Google Chrome$"
+1	launchd
+406	WindowServer
+708	Finder
+21942	Google Chrome
+43778	Google Chrome
+
+$ ps -ax | wc -l   (number of processes)
+     854

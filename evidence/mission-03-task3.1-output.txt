@@ -1,0 +1,32 @@
+$ uname -s -r -m
+Darwin 27.2.0 arm64
+
+$ sw_vers
+ProductName:		macOS
+ProductVersion:		27.2.1
+BuildVersion:		26B131
+
+$ whoami
+[redacted]
+
+$ df -h /System/Volumes/Data
+Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/[disk]   926Gi   397Gi   504Gi    45%    4.7M  5.3G    0%   /System/Volumes/Data
+
+$ top -l 1 -n 5 -o cpu -stats pid,command,cpu,mem | head -20
+Processes: 855 total, 5 running, 850 sleeping, 4893 threads 
+2026/11/15 03:40:20
+Load Avg: 5.07, 3.72, 2.78 
+CPU usage: 14.83% user, 20.27% sys, 64.88% idle 
+SharedLibs: 518M resident, 94M data, 90M linkedit.
+MemRegions: 750958 total, 4219M resident, 163M private, 1843M shared.
+PhysMem: 15G used (3180M wired, 5037M compressor), 143M unused.
+VM: 445T vsize, 57G framework vsize, 154568(0) swapins, 271696(0) swapouts.
+Disks: 25124938/413G read, 10232981/151G written.
+
+PID    COMMAND          %CPU MEM  
+99998  securityd_system 0.0  3568K
+99806  bird             0.0  7840K
+99793  pkd              0.0  11M  
+99725  swcd             0.0  4976K
+99724  CoreServicesUIAg 0.0  18M  

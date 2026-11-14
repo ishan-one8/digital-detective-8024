@@ -1,0 +1,11 @@
+$ cd mission-03-operating-system && pwd
+/Users/[redacted]/.../digital-detective-8024/mission-03-operating-system
+
+$ cd .. && pwd
+/Users/[redacted]/.../digital-detective-8024
+
+$ ls -l mission-02-terminal/terminal-practice/notes.txt
+-rw-r--r--@ 1 [redacted]  staff  82 Nov 15 03:39 mission-02-terminal/terminal-practice/notes.txt
+
+$ ls -ld mission-02-terminal/terminal-practice
+drwxr-xr-x@ 4 [redacted]  staff  128 Nov 15 03:39 mission-02-terminal/terminal-practice
