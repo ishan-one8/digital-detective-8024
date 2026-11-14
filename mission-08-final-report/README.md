@@ -24,7 +24,7 @@ Review the whole repository, make the root README useful to a first-time visitor
 | `mission-06-git-github/README.md` | ✅ | Git workflow, branch, Pull Request, glossary. |
 | `mission-07-networking/README.md` | ✅ | Network concepts, ping/DNS observations, website steps. |
 | `mission-08-final-report/README.md` | ✅ | This file. |
-| `evidence/` | ✅ | 11 privacy-safe Terminal output files. |
+| `evidence/` | ✅ | 13 privacy-safe Terminal output files. |
 
 ### Mission status
 
