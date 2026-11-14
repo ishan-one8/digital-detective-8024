@@ -1,0 +1,37 @@
+$ python3 number_converter.py
+(typed: 13)
+=== Digital Detective Number Converter ===
+Enter a positive decimal number: Decimal     : 13
+Binary      : 1101 (0b1101)
+Hexadecimal : D (0xd)
+
+$ python3 number_converter.py
+(typed: 25)
+=== Digital Detective Number Converter ===
+Enter a positive decimal number: Decimal     : 25
+Binary      : 11001 (0b11001)
+Hexadecimal : 19 (0x19)
+
+$ python3 number_converter.py
+(typed: 255)
+=== Digital Detective Number Converter ===
+Enter a positive decimal number: Decimal     : 255
+Binary      : 11111111 (0b11111111)
+Hexadecimal : FF (0xff)
+
+$ python3 number_converter.py
+(typed: 2026)
+=== Digital Detective Number Converter ===
+Enter a positive decimal number: Decimal     : 2026
+Binary      : 11111101010 (0b11111101010)
+Hexadecimal : 7EA (0x7ea)
+
+--- invalid input checks ---
+(typed: abc)
+=== Digital Detective Number Converter ===
+Enter a positive decimal number: That is not a whole number. Please run the program again.
+
+(typed: -5)
+=== Digital Detective Number Converter ===
+Enter a positive decimal number: Please enter a positive number (0 or more).
+
