@@ -20,6 +20,14 @@ The work is split into **missions**. Every mission has its own folder with its o
 | 7 | Computer networks | [mission-07-networking](mission-07-networking/README.md) |
 | 8 | Final review and submission | [mission-08-final-report](mission-08-final-report/README.md) |
 
+## My Learning
+
+So far in this assignment I have learned that:
+
+- **Every computer follows IPOS** — input, processing, output and storage — even "hidden" computers like ATMs and traffic lights.
+- **The Terminal is powerful but needs care** — `>` replaces a whole file while `>>` only adds to the end, and pipes (`|`) let me join small commands into bigger tools.
+- **Everything is stored as bits** — numbers, and even letters, are just binary patterns; hexadecimal is a short way to write 4 bits per digit, and UTF-8 lets text include characters like `₹`.
+
 Privacy-safe outputs are kept in [`evidence/`](evidence/).
 
 > Personal details (name, USN, computer username, device name, IP address, Wi-Fi name) are intentionally kept out of this public repository.
