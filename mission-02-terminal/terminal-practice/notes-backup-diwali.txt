@@ -1,0 +1,2 @@
+Line 1: I am learning the Terminal.
+Line 2: >> adds text without deleting line 1.

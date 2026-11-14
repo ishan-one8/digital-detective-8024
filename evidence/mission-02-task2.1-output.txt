@@ -1,0 +1,29 @@
+$ pwd
+/Users/[redacted]/.../digital-detective-8024/mission-02-terminal
+
+$ ls
+README.md
+
+$ ls -l
+total 0
+-rw-r--r--@ 1 [redacted]  staff  0 Nov 15 03:37 README.md
+
+$ cd ..  then pwd
+/Users/[redacted]/.../digital-detective-8024
+
+$ mkdir practice
+README.md
+practice
+
+$ touch practice/sample.txt
+sample.txt
+
+$ cp practice/sample.txt practice/sample-copy.txt
+sample-copy.txt
+sample.txt
+
+$ mv practice/sample-copy.txt practice/renamed-copy.txt
+renamed-copy.txt
+sample.txt
+
+$ cat practice/sample.txt   (empty file, so nothing is printed)

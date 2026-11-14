@@ -1,0 +1,17 @@
+$ brew --version
+Homebrew 7.0.9
+
+$ brew list --formula | wc -l
+      87
+
+$ brew list --formula | head -10
+ada-url
+autoconf
+automake
+brotli
+c-ares
+ca-certificates
+cairo
+cloudflared
+cmake
+cowsay

@@ -1,0 +1,19 @@
+$ mkdir terminal-practice && cd terminal-practice
+
+$ echo "Line 1: I am learning the Terminal." > notes.txt
+$ echo "Line 2: >> adds text without deleting line 1." >> notes.txt
+
+$ cat notes.txt
+Line 1: I am learning the Terminal.
+Line 2: >> adds text without deleting line 1.
+
+$ cp notes.txt notes-backup.txt
+$ mv notes-backup.txt notes-backup-diwali.txt
+
+$ ls
+notes-backup-diwali.txt
+notes.txt
+
+$ cat notes-backup-diwali.txt
+Line 1: I am learning the Terminal.
+Line 2: >> adds text without deleting line 1.
