@@ -1,0 +1,6 @@
+$ cd mission-04-programs
+$ python3 hello.py
+Hello from Python
+
+$ python3 --version
+Python 3.14.5
